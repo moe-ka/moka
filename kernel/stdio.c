@@ -32,6 +32,6 @@ void putchar(unsigned char c)
 
 void printk(const char *str)
 {
-    while(str < strlen(str) + str)
+    while(*str)
         putchar(*(str++));
 }
