@@ -5,13 +5,4 @@
         "stdint.h": "c"
     },
     "C_Cpp.errorSquiggles": "Enabled"
-=======
-{
-    "files.associations": {
-        "multiboot.h": "c",
-        "kernel.h": "c",
-        "stdint.h": "c"
-    },
-    "C_Cpp.errorSquiggles": "Enabled"
->>>>>>> cdf21d4... init
 }

@@ -1,0 +1,9 @@
+---
+BreakBeforeBraces: Allman
+ColumnLimit: '0'
+Cpp11BracedListStyle: 'true'
+IndentWidth: '4'
+SpacesBeforeTrailingComments: '1'
+TabWidth: '8'
+UseTab: Never
+...
