@@ -28,7 +28,8 @@ _start:
 	; Reset EFLAGS. 
 	push 0
 	popf
-	; Push the pointer to the Multiboot information structure and magic.
+	; push mbi* and align stack.
+	push 0
 	push ebx
 	
 	; note: ABI requires stack 16 byte alignment before this call
