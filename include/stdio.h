@@ -2,7 +2,7 @@
 #include <stddef.h>
 #include <stdint.h>
 
-/* Hardware text mode color constants. */
+/* hardware text mode color constants.*/
 enum vga_color
 {
     VGA_COLOR_BLACK = 0,
@@ -37,7 +37,7 @@ union vga_glyph
 
 typedef union vga_glyph vga_glyph_t;
 
-// const expressions
+/* vga dimensions */
 #define VGA_WIDTH 80
 #define VGA_HEIGHT 24
 

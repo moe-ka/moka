@@ -13,7 +13,7 @@ void kernel_main(uint32_t mbi_addr)
         return;
 
     // initialize vga text buffer
-    init_vga(mbi->framebuffer_addr);
+    init_vga(mbi->framebuffer_addr + KERNEL_VIRTUAL_BASE);
 
     printk("1234\r5678\nabcd");
 }

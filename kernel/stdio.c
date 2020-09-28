@@ -1,7 +1,7 @@
 #include <kernel.h>
 #include <stdio.h>
 
-// vga variables
+/* vga variables */
 static volatile vga_glyph_t *video = NULL;
 static volatile size_t xpos = 0;
 static volatile size_t ypos = 0;
